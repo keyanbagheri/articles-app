@@ -8,4 +8,4 @@ exports.config = function(){
 	return environment[node_env]
 }
 
-// you can set this in your command line "$ NODE_ENV = production"
+// you can set this in your command line "heroku config:set NODE_ENV=production"
